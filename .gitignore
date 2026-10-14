@@ -1,0 +1,31 @@
+node_modules/
+.pnpm-store/
+.cargo/*
+!.cargo/config.toml
+.rustup/
+.rust-toolchain-local/
+.rust-manual-*/
+data/
+.run/
+src-tauri/runtime/
+src-tauri/target/
+sanlycontrol.*.log
+*.log
+# Node
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+.vite/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
